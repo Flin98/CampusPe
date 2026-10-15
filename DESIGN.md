@@ -38,14 +38,14 @@ visual direction — read and preserve them on every subsequent build; do not
 re-derive a new direction. The first UI pass must fill these fields in as
 part of that build, not leave them as an empty template.
 
-- Product mode: `operate` | `read` | `persuade` | `experience`
-- Audience and cadence:
-- Visual world (name + the feeling it creates):
-- Palette family + neutral undertone:
-- Type treatment:
-- Composition:
-- Shape language:
-- Anti-references (defaults this app must not drift toward):
+- Product mode: `persuade`
+- Audience and cadence: Students, colleges, and employers exploring the CampusPe network; public-facing landing page.
+- Visual world (name + the feeling it creates): Campus Connect — optimistic, airy education technology with a welcoming sense of momentum.
+- Palette family + neutral undertone: Bright Campus Blue with sky cyan, soft indigo, small warm-peach accents, and cool slate neutrals.
+- Type treatment: Crisp Inter body copy with bold geometric sans-serif headlines; occasional editorial serif for role-card titles.
+- Composition: Long-form responsive landing page; centered hero, opportunity feed, paired editorial sections, app showcase, clear closing CTA, and compact footer.
+- Shape language: Rounded pills, softly outlined cards, subtle ambient gradients, and restrained floating status cues.
+- Anti-references (defaults this app must not drift toward): Generic gray SaaS dashboards, dense admin chrome, dark-heavy surfaces, harsh shadows, and unrelated decorative imagery.
 
 ## Agent-Native is structural, not visual
 
