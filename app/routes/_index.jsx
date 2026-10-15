@@ -179,19 +179,7 @@ export default function HomeRoute() {
   );
 }
 
-type RoleCardProps = {
-  icon: typeof IconSchool | typeof IconBriefcase;
-  nodeId: string;
-  title: string;
-  status: string;
-  description: string;
-  features: string[];
-  cta: string;
-  href: string;
-  artwork: React.ReactNode;
-};
-
-function RoleCard({ icon: Icon, nodeId, title, status, description, features, cta, href, artwork }: RoleCardProps) {
+function RoleCard({ icon: Icon, nodeId, title, status, description, features, cta, href, artwork }) {
   return (
     <article className="role-card" data-node-id={nodeId}>
       <div className="role-top"><span className="role-icon"><Icon /></span><span className={`status-pill ${status === "Available Now" ? "available" : ""}`}>{status}</span></div>
